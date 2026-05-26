@@ -216,3 +216,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+# Virtual environment - never commit
+venv/
+env/
+
+# Environment variables - NEVER commit
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Logs
+logs/
+*.log
+
+# PDF reports
+storage/reports/
+
+# VS Code settings
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
